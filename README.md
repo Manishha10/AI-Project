@@ -3,12 +3,14 @@ A web application that recognizes handwritten digits (0-9) drawn by the user on 
 
 ---
 ## Features
+```
 -Draw digits on a canvas using your mouse.
 -Adjust brush size for comfortable drawing.
 -Recognize the digit with a single click.
 -Prediction history is displayed in a neat table with timestamps.
 -Dynamic UI with animated backgrounds and interactive effects.
 -Trail effect follows your cursor for a fun experience.
+```
 
 ---
 ## Project Structure
@@ -21,6 +23,7 @@ A web application that recognizes handwritten digits (0-9) drawn by the user on 
 ├── script.js # JavaScript for drawing, prediction, and UI logic
 └── uploads/ # Temporary folder for uploaded images
 ```
+
 ---
 ## How It Works
 ### 1.Frontend
@@ -40,3 +43,9 @@ A web application that recognizes handwritten digits (0-9) drawn by the user on 
 -Trained on the MNIST dataset for 50 epochs.
 
 ---
+# Getting Started
+### 1.Clone the Repository
+```
+git clone https://github.com/yourusername/handwritten-digit-recognition.git
+cd handwritten-digit-recognition
+```
